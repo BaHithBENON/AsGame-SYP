@@ -1,25 +1,25 @@
 @font-face{
     font-family: WAKANDA;
-    src: url("../Fonts/BEYNO.ttf");
+    src: url("../ft/BEYNO.ttf");
     font-weight: bold;
 }
 
 @font-face{
     font-family: Lovelo;
-    src: url("../Fonts/Lovelo-Black.ttf");
+    src: url("../ft/Lovelo-Black.ttf");
     font-weight: bold;
 }
 
 @font-face{
     font-family: Bf;
-    src: url("../Fonts/BeautifulPeoplePersonalUse-dE0g.ttf");
+    src: url("../ft/BeautifulPeoplePersonalUse-dE0g.ttf");
     font-weight: bold;
 }
 
 
 @font-face{
     font-family: GL;
-    src: url("../Fonts/Glint\ Black.otf");
+    src: url("../ft/Glint\ Black.otf");
     font-weight: bold;
 }
 

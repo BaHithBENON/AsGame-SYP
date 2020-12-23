@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/newindex.css">
+    <title>AsGame</title>
+</head>
+<body>
+
+    <section class="master">
+        <section class="info">
+            <div class="bf title">
+                <span>by Ba'Hith BN</span><br>
+                SendYour <br>
+                <span class="lv letters"> Package</span>
+            </div>
+        </section>
+        <div class="btnDown">
+            <a href="" download="SYP.mp3">Télécharger</a>
+        </div>
+    </section>
+
+
+    <script src="{{ env('APP.URL') }}/js/jquery-3.3.1.js"></script>
+    <script src="{{ env('APP.URL') }}/js/jquery.lettering.js"></script>
+    <script>
+        $('document').ready(function () {
+            $(".letters").lettering();
+        });
+    </script>
+    
+</body>
+</html>

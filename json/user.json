@@ -1,0 +1,72 @@
+[
+    {
+        "id" : 1,
+        "name" : "Saazh",
+        "surname" : "SH",
+        "email" : "as19cdls@gmail.com",
+        "password" : "123456789"
+    },
+    {
+        "id" : 2,
+        "name" : "Ba'HIth",
+        "surname" : "BN",
+        "email" : "bahithbn@gmail.com",
+        "password" : "123456789"
+    },
+    {
+        "id" : 3,
+        "name" : "Naj",
+        "surname" : "Hassan",
+        "email" : "najhassan@gmail.com",
+        "password" : "123456789"
+    },
+    {
+        "id" : 4,
+        "name" : "Ili",
+        "surname" : "BN",
+        "email" : "iliassou@gmail.com",
+        "password" : "123456789"
+    },
+    {
+        "id" : 5,
+        "name" : "Rezaould",
+        "surname" : "Adam Soulé",
+        "email" : "adamsoule@gmail.com",
+        "password" : "123456789"
+    },
+    {
+        "id" : 6,
+        "name" : "Sare",
+        "surname" : "Soulé",
+        "email" : "saresoule@gmail.com",
+        "password" : "123456789"
+    },
+    {
+        "id" : 7,
+        "name" : "Al-faraj",
+        "surname" : "Adam Soulé",
+        "email" : "farajorou@gmail.com",
+        "password" : "123456789"
+    },
+    {
+        "id" : 8,
+        "name" : "Lamine",
+        "surname" : "Yallou",
+        "email" : "lamzoyl@gmail.com",
+        "password" : "123456789"
+    },
+    {
+        "id" : 9,
+        "name" : "Séro",
+        "surname" : "Chabi",
+        "email" : "serochabi@gmail.com",
+        "password" : "123456789"
+    },
+    {
+        "id" : 10,
+        "name" : "Bachar Shu",
+        "surname" : "Yallou",
+        "email" : "bacharshu@gmail.com",
+        "password" : "123456789"
+    }
+]

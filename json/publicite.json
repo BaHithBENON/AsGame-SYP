@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "message": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "images": [
+            "assets/images/board1.png",
+            "assets/images/board2.png",
+            "assets/images/board3.png"
+        ],
+        "user": {
+            "id" : 1,
+            "name" : "Saazh",
+            "surname" : "SH",
+            "email" : "as19cdls@gmail.com",
+            "password" : "123456789"
+        }
+    },
+    {
+        "id": 2,
+        "message": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "images": [
+            "assets/images/board4.png",
+            "assets/images/board5.png",
+            "assets/images/board6.png"
+        ],
+        "user": {
+            "id" : 1,
+            "name" : "Saazh",
+            "surname" : "SH",
+            "email" : "as19cdls@gmail.com",
+            "password" : "123456789"
+        }
+    },
+    {
+        "id": 3,
+        "message": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "images": [
+            "assets/images/board3.png",
+            "assets/images/board2.png",
+            "assets/images/board1.png"
+        ],
+        "user": {
+            "id" : 1,
+            "name" : "Saazh",
+            "surname" : "SH",
+            "email" : "as19cdls@gmail.com",
+            "password" : "123456789"
+        }
+    },
+    {
+        "id": 4,
+        "message": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "images": [
+            "assets/images/board6.png",
+            "assets/images/board2.png",
+            "assets/images/board3.png"
+        ],
+        "user": {
+            "id" : 3,
+            "name" : "Naj",
+            "surname" : "Hassan",
+            "email" : "najhassan@gmail.com",
+            "password" : "123456789"
+        }
+    },
+    {
+        "id": 5,
+        "message": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+        "images": [
+            "assets/images/board5.png",
+            "assets/images/board4.png",
+            "assets/images/board1.png"
+        ],
+        "user": {
+            "id" : 4,
+            "name" : "Ili",
+            "surname" : "BN",
+            "email" : "iliassou@gmail.com",
+            "password" : "123456789"
+        }
+    }
+]

@@ -1,0 +1,191 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Gl;
+}
+
+body{
+    position: relative;
+    widows: 100%;
+    min-height: 100vh;
+    background: rgb(36, 35, 32);
+}
+
+a{
+   text-decoration: none;
+}
+
+.sypTitle{
+    font-family: Lv;
+    margin: 10px 0;
+}
+
+.synopsis{
+    padding: 50px 10%;
+    color: white;
+}
+
+
+.synopsis .sypTitle{
+    color: yellow;
+}
+
+.devdiv h3, .principes h3, .synopsis h3{
+    margin: 20px 0;
+    font-family: 'Ok';
+}
+
+
+
+
+.principes{
+    background: rgb(255, 255, 255);
+    padding: 50px 10%;
+}
+
+.pts{
+    color: rgb(255, 0, 0);
+}
+
+.life{
+    color: rgb(229, 255, 0);
+}
+
+.level{
+    color: rgba(56, 194, 75, 0.808);
+}
+
+.principes ol li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px 0;
+}
+
+.principes ol li div{
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: rgb(29, 28, 25);
+    color: white;
+    margin: 10px 0;
+}
+
+.devdiv{
+    color: white;
+    font-family: 'Lv';
+    padding: 50px 10%;
+}
+
+.dev{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.dev ul{
+    margin: 30px 0;
+    margin-left: 20px;
+}
+
+.dev ul li{
+    margin: 20px 0;
+}
+
+.dev div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dev .imgProfil{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    place-self: center;
+    align-self: center;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 5px rgb(208, 255, 0);
+}
+
+.dev .imgProfil img{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-family: 'Lv';
+    padding: 50px 10%;
+    padding-bottom: 150px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+footer ul li{
+    margin: 0 5px;
+    list-style: none;
+}
+
+footer ul li a{
+    font-family: 'Lv';
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover{
+    color: yellow;
+    transition: 0.5s all ease-in;
+}
+
+
+@media (max-width: 500px){
+
+    .principes ol li{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .dev{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .dev div:nth-child(2){
+        margin-top: 50px;
+    }
+
+    .dev div:nth-child(2){
+        margin: 30px 0;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes shadow-on-text{
+    0%{
+        text-shadow: 0px 0px 10px yellow;
+    }
+    100%{
+        text-shadow: 0px 0px 10px yellow;
+    }
+}

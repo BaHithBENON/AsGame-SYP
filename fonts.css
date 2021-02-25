@@ -1,0 +1,25 @@
+@font-face{
+    font-family: Bf;
+    src: url("assets/fonts/BeautifulPeoplePersonalUse-dE0g.ttf");
+    font-weight: bold;
+}
+@font-face{
+    font-family: Gl;
+    src: url("assets/fonts/Glint\ Black.otf");
+    font-weight: bold;
+}
+@font-face{
+    font-family: Lv;
+    src: url("assets/fonts/Lovelo-Black.ttf");
+    font-weight: bold;
+}
+@font-face{
+    font-family: Ok;
+    src: url("assets/fonts/Okami.otf");
+    font-weight: bold;
+}
+
+.Ok{font-family: Ok;}
+.Gl{font-family: Gl;}
+.Lv{font-family: Lv;}
+.Bf{font-family: Bf;}

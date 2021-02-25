@@ -2,33 +2,125 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/newindex.css">
-    <title>AsGame</title>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="newindex.css">
+    <title>SYP</title>
 </head>
 <body>
-
     <section class="master">
         <section class="info">
-            <div class="bf title">
-                <span>by Ba'Hith BN</span><br>
-                SendYour <br>
-                <span class="lv letters"> Package</span>
-            </div>
+            <img src="assets/images/syp.png" alt="">
         </section>
-        <div class="btnDown">
-            <a href="" download="SYP.mp3">Télécharger</a>
+    </section>
+    <div class="btnDown">
+        <a href="" download="SYP.apk">Télécharger</a>
+    </div>
+    <section class="synopsis">
+        <h2 class="sypTitle">Synopsis</h2>
+        <h3>Histoire & Gameplay</h3>
+        <div>
+            Dans notre jeu, nous somme un commerçant qui doit envoyer des colis à des clients par le biais d’un coursier. 
+            Ainsi pour effectuer ces livraisons, le coursier aura besoin du code postal de l’adresse delivraison. 
+            Dans notre jeu, en tant que demandeur de courses, vous devriez trouver le code postal   caché dans un endroit de la maison.
+            Il faut trouver le code en cherchant un objet spécifique de la maison. Cet objet est indiqué à travers un guide, une devinette. 
+            Une fois l’objet retrouvé, une énigme est proposé afin d’avoir enfin le code postal.
         </div>
     </section>
+    <section class="principes">
+        <h2 class="sypTitle">Principes de gamification</h2>
+        <div>
+            <h3>Barème indicatif</h3>
+            <ol>
+                <li>
+                    <span>Objet trouvé</span>
+                    <div>
+                        <span class="pts">1</span> énigme ouverte
+                    </div>
+                </li>
+                <li>
+                    <span>Réponse trouvée</span>
+                    <div>
+                        <span class="pts"> + 10</span> pts /
+                        <span class="level"> + 1</span> level
+                    </div>
+                </li>
+                <li>
+                    <span>Temps écoluer de 60s</span>
+                    <div>
+                        <span class="life"> - 1</span> vie
+                    </div>
+                </li>
+                <li>
+                    <span>Temps écouler complètement</span>
+                    <div>
+                        <span class="life">- 5</span> vies /
+                        <span class="life"> Restart</span>
+                    </div>
+                </li>
+                <li>
+                    <span>Une vie achetée</span>
+                    <div>
+                        <span class="pts"> - 10</span> pts
+                    </div>
+                </li>
+                <li>
+                    <span>Un indice acheté</span>
+                    <div>
+                        <span class="pts"> - 10</span> pts
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </section>
+    <section class="devdiv">
+        <h2 class="sypTitle">Ba'Hith BENON</h2>
+        <h3>Auteur</h3>
+        <div class="dev">
+            <div>
+                <p>
+                    Licence en Génie logiciel à l' <span class="pts">Institut</span> de 
+                    <span class="pts">Formation</span> et de <span class="pts">Recherche</span> 
+                    en <span class="pts">Informatique</span> (IFRI).
 
+                    <ul>
+                        <li>Débutant en Game Development avec <span class="life">Unity 3D</span></li>
+                        <li>Développeur web front-end</li>
+                        <li>Développeur mobile Flutter</li>
+                    </ul>
+                </p>
+            </div>
+            <div>
+                <div class="imgProfil">
+                    <img src="assets/images/image1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <ul>
+                <li>
+                    <a href="">Twitter</a>
+                </li>
+                <li>
+                    <a href="">Instagram</a>
+                </li>
+                <li>
+                    <a href="">LinkedIn</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/jquery.lettering.js"></script>
+    <script src="jquery-3.3.1.js" type="text/javascript"></script>
+    <script src="jquery.lettering.js" type="text/javascript"></script>
     <script>
         $('document').ready(function () {
             $(".letters").lettering();
         });
     </script>
-    
 </body>
 </html>
